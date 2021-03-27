@@ -13,7 +13,7 @@ const IndexPage = () => {
     <main>
       <Hero title="New Mexico Rugby" tagline="New Mexico's only youth rugby organization" />
       <Menu />
-      <main className="container mx-auto">
+      <main className="container px-4 mx-auto md:px-0">
         <p>New Mexico Rugby is a registered non-profit and all-volunteer sports organization, dedicated to the development of young athletes in New Mexico and west Texas through youth and high school rugby for all. Our programs, leagues, and clubs state-wide offer contact and non-contact rugby open to all elementary, middle school, and high school student-athletes. NMYR's mission is to develop and grow the sport of rugby for all youth within the state of New Mexico. Our goals are to provide a safe and fair sporting environment, and to develop youth character by introducing the values of rugby into a team sport experience that will endure for a lifetime."</p>
 
         <h2>About Rugby</h2>
