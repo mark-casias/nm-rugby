@@ -5,7 +5,7 @@ const Hero = (props) => {
   // @todo: make the bg image a prop.
   const bgImage = '/img/scrum-fun.jpg'
   return (
-    <div className="flex min-h-screen bg-right-bottom bg-cover hero-image" style={{backgroundImage: `url(${bgImage})`}}>
+    <div className="flex min-h-screen bg-center bg-cover hero-image" style={{backgroundImage: `url(${bgImage})`}}>
     <div className="container relative z-10 flex items-end p-4 mx-auto">
       <div>
         <div className="float-left px-5 py-4 my-5 content">
