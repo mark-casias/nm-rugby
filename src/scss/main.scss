@@ -1,0 +1,17 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer bases {
+  @font-face {
+    font-family: 'Avenir';
+    src: local('Avenir'), url('./fonts/Avenir-LT-Std-85-Heavy_5177.ttf') format('ttf');
+  }
+  * {
+    @apply font-base;
+  }
+}
+
+h2 {
+  @apply my-2 text-2xl font-bold;
+}

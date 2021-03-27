@@ -1,11 +1,23 @@
+const autoprefixer = require("autoprefixer");
+
 module.exports = {
   siteMetadata: {
-    title: "nm-rugby",
+    title: "Rugby New Mexico",
   },
   plugins: [
-    "gatsby-plugin-sass",
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        sassOptions: {
+          includePaths: ['node_modules', 'src/global']
+        },
+        postCssPlugins: [
+          require("tailwindcss")
+        ],
+      },
+    },
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
     {
