@@ -4,8 +4,8 @@ import { Link } from 'gatsby';
 // data
 const links = [
   {
-    text: "Home",
-    url: "/",
+    text: "Register",
+    url: "https://usarugby.sportlomo.com/",
   }
 ]
 
