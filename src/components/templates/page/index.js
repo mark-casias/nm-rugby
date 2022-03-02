@@ -8,12 +8,11 @@ import Footer from '../../footer/footer';
 import '../../../scss/main.scss';
 
 const PageTemplate = ({data}) => {
-  console.log(data);
   return (
     <main>
       <Hero title="Rugby New Mexico" tagline="New Mexico's only youth rugby organization" />
       <Menu />
-      <main className="container px-4 mx-auto md:px-0">
+      <main className="container px-4 mx-auto mb-4 md:px-0">
         <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
       </main>
       <Footer />
