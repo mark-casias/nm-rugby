@@ -1,5 +1,5 @@
 ---
-title: homepage
+title: "Rugby New Mexico"
 template: page
 slug: '/'
 hero:

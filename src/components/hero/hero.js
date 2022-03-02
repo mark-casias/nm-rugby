@@ -7,10 +7,10 @@ const Hero = (props) => {
   const r = Math.floor(Math.random() * 7);
   const bgImage = (props.hero && props.hero.image) ? props.hero.image : `/img/hero-${r}.jpg`
   return (
-    <div className="flex min-h-screen bg-center bg-cover hero-image" style={{backgroundImage: `url(${bgImage})`}}>
+    <div className="flex bg-center bg-cover hero-image" style={{backgroundImage: `url(${bgImage})`}}>
     <div className="container relative z-10 flex items-end p-4 mx-auto">
       <div>
-        <div className="float-left px-5 py-4 my-5 content">
+        <div className="float-left px-5 py-4 mb-5 content">
           <div class="flex items-center">
             <Link to="/">
               <img src="/img/Y-HS-V2-logo-cropped.webp"
