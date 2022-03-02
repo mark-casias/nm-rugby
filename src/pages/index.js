@@ -4,7 +4,6 @@ import Menu from '../components/menu/menu';
 
 import Footer from '../components/footer/footer';
 
-
 import '../scss/main.scss';
 
 // markup

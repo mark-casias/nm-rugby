@@ -11,7 +11,7 @@ module.exports = {
       resolve: `gatsby-plugin-sass`,
       options: {
         sassOptions: {
-          includePaths: ['node_modules', 'src/global']
+          includePaths: ['node_modules', 'src/scss']
         },
         postCssPlugins: [
           require("tailwindcss")
@@ -36,5 +36,6 @@ module.exports = {
       },
       __key: "pages",
     },
+    `gatsby-transformer-remark`,
   ],
 };
